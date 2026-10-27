@@ -1,0 +1,35 @@
+{
+  "name": "dashboard-client",
+  "version": "0.0.4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write --experimental-cli src/"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "@syncfusion/ej2-base": "^34.2.8",
+    "@syncfusion/ej2-notifications": "^34.2.8",
+    "@syncfusion/ej2-vue-notifications": "^34.2.8",
+    "@tanstack/vue-query": "^5.102.8",
+    "chart.js": "^4.5.1",
+    "html2canvas": "^1.4.1",
+    "pinia": "^4.0.3",
+    "vue": "^3.5.40",
+    "vue-chartjs": "^5.3.4",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "prettier": "3.9.5",
+    "sass": "^1.104.1",
+    "vite": "^8.1.5",
+    "vite-plugin-vue-devtools": "^8.1.5"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
